@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eesha Health Care | Obstetrics, Gynaecology, Cardiothoracic &amp; Vascular Surgery, Visakhapatnam</title>
+  <meta name="description" content="Eesha Health Care at Jagadamba Junction, Visakhapatnam. Dr. P.V. Suneetha, Obstetrician and Gynaecologist (MD, AIIMS New Delhi), specialist in Infertility and High-Risk Obstetrics. Consultations Monday to Saturday, 10 AM to 6 PM." />
+  <meta name="theme-color" content="#14312e" />
+  <link rel="icon" href="logo.webp" type="image/webp" />
+  <link rel="preload" as="image" href="clinic photos/shared image (3).jpg" fetchpriority="high" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Outfit:wght@400;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Outfit:wght@400;600&display=swap" /></noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Eesha Health Care",
+    "image": "clinic photos/Media (2).jpg",
+    "telephone": "+91-89855-86757",
+    "medicalSpecialty": ["Gynecologic", "Obstetric", "Cardiovascular"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Chamber No. 1, Door No. 17, RR Towers, 1-15, KGH Down Road, Opp. KGH OP Gate, Jagadamba Junction",
+      "addressLocality": "Visakhapatnam",
+      "addressRegion": "Andhra Pradesh",
+      "postalCode": "530002",
+      "addressCountry": "IN"
+    },
+    "openingHours": "Mo-Sa 10:00-18:00",
+    "employee": [
+      {
+        "@type": "Physician",
+        "name": "Dr. P.V. Suneetha",
+        "medicalSpecialty": ["Gynecologic", "Obstetric"],
+        "telephone": "+91-89855-86757",
+        "image": "sunitha.webp"
+      },
+      {
+        "@type": "Physician",
+        "name": "Dr. G.V. Ramana Kumar",
+        "medicalSpecialty": ["Cardiovascular", "Surgical"],
+        "telephone": "+91-73827-07057"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --deep: #14312e;
+      --deep-2: #1c403c;
+      --teal: #1f6f64;
+      --teal-dark: #16564d;
+      --gold: #8c6433;
+      --gold-soft: #f3e6cf;
+      --ink: #1c2422;
+      --muted: #5d6b66;
+      --line: #e5ddd2;
+      --cream: #f6f3ee;
+      --paper: #fffcf8;
+      --white: #fff;
+      --radius: 18px;
+      --shadow: 0 16px 40px rgba(20, 49, 46, .08);
+      --serif: "Fraunces", Georgia, serif;
+      --sans: "Outfit", system-ui, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    h1, h2, h3 { font-family: var(--serif); color: var(--deep); line-height: 1.15; margin: 0; font-weight: 560; }
+    .container { width: min(1140px, 100% - 40px); margin-inline: auto; }
+    section { padding: 88px 0; }
+    .eyebrow {
+      display: inline-block;
+      font-size: .76rem;
+      font-weight: 600;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 12px;
+    }
+    .section-head { max-width: 640px; margin-bottom: 42px; }
+    .section-head h2 { font-size: clamp(1.9rem, 3vw, 2.6rem); }
+    .section-head p { color: var(--muted); margin: 12px 0 0; font-size: 1.05rem; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: .96rem;
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      transition: background .2s, color .2s, transform .2s, box-shadow .2s;
+    }
+    .btn svg { width: 18px; height: 18px; flex: none; }
+    .btn-primary { background: var(--teal); color: var(--white); box-shadow: 0 8px 20px rgba(31, 111, 100, .25); }
+    .btn-primary:hover { background: var(--teal-dark); transform: translateY(-2px); }
+    .btn-outline { border-color: var(--deep); color: var(--deep); background: transparent; }
+    .btn-outline:hover { background: var(--deep); color: var(--white); }
+    .btn-light { background: var(--white); color: var(--deep); }
+    .btn-light:hover { transform: translateY(-2px); }
+    .btn-wa { background: #1f8f4e; color: var(--white); }
+    .btn-wa:hover { background: #187a41; }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(255, 252, 248, .9);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+    .header .container { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 20px; }
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+    .brand-logo { width: 48px; height: 48px; object-fit: contain; flex: none; }
+    .brand-name { font-family: var(--serif); font-size: 1.15rem; color: var(--deep); line-height: 1.1; }
+    .brand-sub { display: block; font-family: var(--sans); font-size: .74rem; letter-spacing: .04em; color: var(--muted); font-weight: 500; margin-top: 2px; }
+    .nav { display: flex; align-items: center; gap: 28px; }
+    .nav a:not(.btn) { font-weight: 500; font-size: .95rem; }
+    .nav a:not(.btn):hover { color: var(--teal); }
+    .nav .btn { padding: 10px 18px; }
+    .menu-toggle { display: none; background: none; border: 0; padding: 8px; cursor: pointer; }
+    .menu-toggle svg { width: 26px; height: 26px; stroke: var(--deep); }
+
+    .hero {
+      padding: 64px 0 72px;
+      background:
+        radial-gradient(700px 320px at 90% 0%, rgba(31, 111, 100, .09), transparent 60%),
+        linear-gradient(180deg, var(--cream), var(--paper));
+    }
+    .hero .container { display: grid; grid-template-columns: .9fr 1.1fr; gap: 56px; align-items: center; }
+    .hero-kicker {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--white); border: 1px solid var(--line);
+      padding: 7px 14px; border-radius: 999px;
+      font-size: .84rem; font-weight: 500; color: var(--deep);
+      box-shadow: var(--shadow);
+    }
+    .hero-kicker .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--teal); }
+    .hero h1 { font-size: clamp(2.6rem, 5vw, 4.2rem); margin: 18px 0 12px; letter-spacing: -.02em; }
+    .hero .role { margin: 0 0 16px; font-size: 1.12rem; font-weight: 600; color: var(--teal-dark); }
+    .hero .lead { margin: 0 0 28px; max-width: 520px; color: var(--muted); font-size: 1.06rem; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .hero-meta span {
+      font-size: .82rem; font-weight: 600; color: var(--deep-2);
+      background: #e7efe9; padding: 7px 12px; border-radius: 8px;
+    }
+
+    .hero-photo { position: relative; }
+    .frame {
+      position: relative;
+      aspect-ratio: 3 / 2;
+      border-radius: 22px;
+      overflow: hidden;
+      background: #d9d3c8;
+      box-shadow: 0 24px 50px rgba(20, 49, 46, .16);
+    }
+    .slide {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transform: scale(1.04);
+      transition: opacity 1s ease, transform 6s ease;
+    }
+    .slide.active { opacity: 1; transform: scale(1); }
+    .hero-photo::before {
+      content: "";
+      position: absolute;
+      inset: -14px 16px 16px -14px;
+      border: 1.5px solid rgba(140, 100, 51, .35);
+      border-radius: 26px;
+      z-index: -1;
+    }
+    .slide-caption {
+      position: absolute; left: 16px; bottom: 16px; z-index: 2;
+      background: rgba(20, 49, 46, .78);
+      color: var(--white);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: .82rem;
+      font-weight: 500;
+    }
+    .slide-dots { display: flex; gap: 8px; margin-top: 16px; }
+    .slide-dots button {
+      width: 8px; height: 8px; padding: 0; border: 0; border-radius: 999px;
+      background: #d3cbc0; cursor: pointer;
+      transition: width .3s, background .3s;
+    }
+    .slide-dots button.active { width: 26px; background: var(--teal); }
+    .slide-dots button:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; }
+
+    .facts { background: var(--deep); color: var(--white); padding: 28px 0; }
+    .facts .container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .fact { padding: 6px 16px; }
+    .fact + .fact { border-left: 1px solid rgba(255, 255, 255, .14); }
+    .fact strong { display: block; font-family: var(--serif); font-weight: 560; font-size: 1.15rem; }
+    .fact span { display: block; margin-top: 4px; color: #c9d7d3; font-size: .9rem; }
+    .fact .training + .training { margin-top: 12px; }
+
+    .doctor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: stretch; }
+    a.doctor {
+      color: inherit;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      transition: transform .25s, box-shadow .25s;
+    }
+    a.doctor:hover { transform: translateY(-4px); box-shadow: 0 20px 44px rgba(20, 49, 46, .12); }
+    a.doctor:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+    .doctor-body .more { margin-top: auto; padding-top: 8px; font-weight: 600; color: var(--teal-dark); }
+    .portrait { aspect-ratio: 5 / 4; background: #e7e1d8; overflow: hidden; }
+    .portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 18%; }
+    .portrait.placeholder {
+      display: grid;
+      place-items: center;
+      align-content: center;
+      gap: 8px;
+      background:
+        linear-gradient(180deg, rgba(243, 230, 207, .55), rgba(255, 252, 248, .2)),
+        repeating-linear-gradient(135deg, #efe8dc 0 12px, #e7dfd2 12px 24px);
+      color: var(--gold);
+      text-align: center;
+      border-bottom: 1px dashed #ddc9a6;
+    }
+    .portrait.placeholder strong {
+      font-family: var(--serif);
+      font-size: 2.4rem;
+      font-weight: 560;
+      letter-spacing: .04em;
+      color: var(--deep);
+    }
+    .portrait.placeholder span { font-size: .86rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    .doctor-body { padding: 26px 26px 28px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+    .doctor-body h2 { font-size: 1.7rem; }
+    .doctor-body .title { margin: 0; color: var(--teal-dark); font-weight: 600; }
+    .doctor-body .creds { margin: 0; color: var(--muted); font-size: .95rem; }
+    .cred-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .cred-pills span {
+      font-size: .8rem;
+      font-weight: 600;
+      line-height: 1.35;
+      color: #13315c;
+      background: #e9eef6;
+      padding: 7px 12px;
+      border-radius: 8px;
+    }
+    .doctor-body .bio { margin: 0; color: var(--ink); }
+    .doctor-body .bio + .bio { color: var(--muted); }
+    .doctor-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 8px; }
+
+    .detail-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 28px; align-items: stretch; }
+    .panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+    }
+    .panel h2 { font-size: 1.7rem; margin-bottom: 8px; }
+    .panel .intro { margin: 0 0 22px; color: var(--muted); }
+    .groups { display: grid; gap: 18px; }
+    .group h3 { font-family: var(--sans); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+    .group ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .group li {
+      background: var(--cream);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: .9rem;
+      color: var(--deep);
+    }
+
+    .reserve {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      background:
+        linear-gradient(180deg, rgba(255, 252, 248, .4), rgba(243, 230, 207, .35)),
+        var(--white);
+      border: 1.5px dashed #d9c7a6;
+    }
+    .reserve h2 { font-size: 1.7rem; }
+    .reserve .intro { color: var(--muted); margin: 8px 0 0; }
+    .reserve-space {
+      flex: 1;
+      min-height: 280px;
+      margin-top: 22px;
+      border-radius: 16px;
+      background: rgba(255, 252, 248, .72);
+      border: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 28px;
+    }
+    .reserve-space p { margin: 0; max-width: 280px; color: var(--muted); }
+    .reserve-space strong { display: block; font-family: var(--serif); font-size: 1.25rem; color: var(--deep); font-weight: 560; margin-bottom: 8px; }
+    .reserve .direct { margin: 18px 0 0; font-size: .92rem; color: var(--muted); }
+    .reserve .direct a { color: var(--teal-dark); font-weight: 600; }
+    .reserve .direct a:hover { color: var(--teal); }
+
+    .visit { background: var(--cream); }
+    .visit-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 36px; align-items: stretch; }
+    .contact-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 18px; }
+    .contact-list li { display: flex; gap: 14px; }
+    .icon {
+      flex: none; width: 46px; height: 46px; border-radius: 12px;
+      background: var(--deep); display: grid; place-items: center;
+    }
+    .icon svg { width: 22px; height: 22px; stroke: var(--white); fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+    .contact-list h3 { font-family: var(--sans); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+    .contact-list p, .contact-list a { margin: 4px 0 0; font-weight: 500; }
+    .contact-list a:hover { color: var(--teal); }
+    .map { border-radius: 20px; overflow: hidden; border: 1px solid var(--line); min-height: 420px; box-shadow: var(--shadow); background: var(--white); }
+    .map iframe { width: 100%; height: 100%; min-height: 420px; border: 0; display: block; }
+
+    .footer { background: #0e2422; color: #b7c7c3; padding: 28px 0; font-size: .9rem; }
+    .footer .container { display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+    .footer a:hover { color: var(--white); }
+
+    .mobile-bar { display: none; }
+
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .slide { transition: opacity .2s linear; transform: none; }
+      .slide.active { transform: none; }
+    }
+
+    @media (max-width: 980px) {
+      .hero .container, .doctor-grid, .detail-grid, .visit-grid { grid-template-columns: 1fr; }
+      .facts .container { grid-template-columns: 1fr 1fr; row-gap: 18px; }
+      .fact:nth-child(odd) { border-left: 0; }
+      .fact:nth-child(even) { border-left: 1px solid rgba(255, 255, 255, .14); }
+      .hero .container { gap: 28px; }
+      .hero-photo { order: -1; }
+    }
+    @media (max-width: 760px) {
+      .menu-toggle { display: block; }
+      .nav {
+        display: none;
+        position: absolute; top: 76px; left: 0; right: 0;
+        flex-direction: column; align-items: stretch; gap: 0;
+        background: var(--paper); border-bottom: 1px solid var(--line);
+        padding: 8px 20px 18px;
+      }
+      .nav.open { display: flex; }
+      .nav a:not(.btn) { padding: 14px 0; border-bottom: 1px solid var(--line); }
+      .nav .btn { margin-top: 14px; }
+      section { padding: 64px 0; }
+      .hero { padding-top: 36px; }
+      .brand-sub { display: none; }
+      body { padding-bottom: 74px; }
+      .mobile-bar {
+        display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+        position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+        padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+        background: var(--paper); border-top: 1px solid var(--line);
+      }
+      .mobile-bar .btn { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#top" class="brand" aria-label="Eesha Health Care home">
+        <img class="brand-logo" src="logo.webp" alt="" />
+        <span>
+          <span class="brand-name">Eesha Health Care</span>
+          <span class="brand-sub">Visakhapatnam</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#doctors">Doctors</a>
+        <a href="#visit">Visit</a>
+        <a href="tel:+918985586757" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          Book appointment
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <span class="hero-kicker"><span class="dot"></span> Jagadamba Junction, Visakhapatnam</span>
+          <h1>Eesha Health Care</h1>
+          <p class="role">Obstetrics, Gynaecology, Cardiothoracic and Vascular Surgery</p>
+          <p class="lead">
+            A specialist clinic beside KGH for women’s health and for Heart, Lung and Vascular Surgery.
+            Appointments from Monday to Saturday, 10 AM to 6 PM.
+          </p>
+          <div class="hero-actions">
+            <a href="tel:+918985586757" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+              Call +91 89855 86757
+            </a>
+            <a href="#doctors" class="btn btn-outline">Meet the doctors</a>
+          </div>
+          <div class="hero-meta">
+            <span>Infertility &amp; High-Risk Obstetrics</span>
+            <span>General Gynaecology</span>
+            <span>Cardiothoracic &amp; Vascular Surgery</span>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="frame" aria-roledescription="carousel" aria-label="Photographs of Eesha Health Care">
+            <img class="slide active" src="clinic photos/shared image (3).jpg" width="1448" height="1086" alt="Exterior of Eesha Health Care at R.R. Towers, with the consultants’ signboard above the entrance" fetchpriority="high" decoding="async" />
+            <img class="slide" data-src="clinic photos/Media (2).jpg" width="1536" height="1024" alt="Entrance of Eesha Health Care with the consultants’ name board" decoding="async" />
+            <img class="slide" data-src="clinic photos/Media (3).jpg" width="1086" height="1448" alt="Wooden entrance doors opening into the waiting area" decoding="async" />
+            <img class="slide" data-src="clinic photos/Media (4).jpg" width="1536" height="1024" alt="Reception desk inside Eesha Health Care" decoding="async" />
+            <img class="slide" data-src="clinic photos/Media (5).jpg" width="1536" height="1024" alt="Front office and pharmacy counter at the clinic" decoding="async" />
+            <img class="slide" data-src="clinic photos/Media (6).jpg" width="1448" height="1086" alt="Patient waiting lounge with seating" decoding="async" />
+            <img class="slide" data-src="clinic photos/shared image (2).jpg" width="1024" height="768" alt="Long waiting corridor at Eesha Health Care with seating along both sides" decoding="async" />
+            <div class="slide-caption" id="slide-caption">R.R. Towers</div>
+          </div>
+          <div class="slide-dots" aria-label="Choose a clinic photograph"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="facts">
+      <div class="container">
+        <div class="fact"><strong>Two consultants</strong><span>Gynaecology and Cardiac Surgery</span></div>
+        <div class="fact">
+          <div class="training"><strong>AIIMS New Delhi</strong><span>Postgraduate Training</span></div>
+          <div class="training"><strong>KEM Mumbai</strong><span>Superspeciality Training</span></div>
+        </div>
+        <div class="fact"><strong>Mon – Sat</strong><span>10:00 AM – 6:00 PM</span></div>
+        <div class="fact"><strong>Jagadamba</strong><span>Opposite KGH OP Gate</span></div>
+      </div>
+    </div>
+
+    <section id="doctors">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our consultants</span>
+          <h2>The doctors at this clinic</h2>
+          <p>Open a consultant’s profile for qualifications, areas of care and patient testimonials.</p>
+        </div>
+
+        <div class="doctor-grid">
+          <a class="doctor reveal" id="dr-suneetha" href="dr-suneetha.html">
+            <div class="portrait">
+              <img src="sunitha.webp" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="doctor-body">
+              <span class="eyebrow">Obstetrician &amp; Gynaecologist</span>
+              <h2>Dr. P.V. Suneetha</h2>
+              <p class="title">Specialist in Infertility &amp; High-Risk Obstetrics</p>
+              <div class="cred-pills" aria-label="Qualifications">
+                <span>MBBS</span>
+                <span>MD (OBG) · AIIMS New Delhi</span>
+              </div>
+              <span class="more">View profile</span>
+            </div>
+          </a>
+
+          <a class="doctor reveal" id="dr-ramana" href="https://www.drgvramanakumar.in/" target="_blank" rel="noopener">
+            <div class="portrait">
+              <img src="ramana.jpg" width="1024" height="1024" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="doctor-body">
+              <span class="eyebrow">Cardiothoracic &amp; Vascular Surgeon</span>
+              <h2>Dr. G.V. Ramana Kumar</h2>
+              <p class="title">Chief Consultant</p>
+              <div class="cred-pills" aria-label="Qualifications">
+                <span>MBBS</span>
+                <span>MS (Gen. Surgery) · AIIMS Delhi</span>
+                <span>M.Ch (CVTS) · KEM Mumbai</span>
+                <span>Senior Fellow · Royal Adelaide Hospital · South Australia</span>
+                <span>FIACS</span>
+              </div>
+              <span class="more">View profile</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="container">
+        <div class="visit-grid">
+          <div class="reveal">
+            <div class="section-head">
+              <span class="eyebrow">Visit the clinic</span>
+              <h2>Location &amp; timings</h2>
+              <p>Chamber No. 1, opposite the KGH outpatient gate at Jagadamba Junction.</p>
+            </div>
+            <ul class="contact-list">
+              <li>
+                <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+                <div>
+                  <h3>Address</h3>
+                  <p>Chamber No. 1, Door No. 17, RR Towers, 1-15, KGH Down Road,<br />Opp. KGH OP Gate, Jagadamba Junction,<br />Visakhapatnam, Andhra Pradesh 530002</p>
+                </div>
+              </li>
+              <li>
+                <span class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+                <div>
+                  <h3>Hours</h3>
+                  <p>Monday – Saturday<br />10:00 AM – 6:00 PM<br />Sunday: Closed</p>
+                </div>
+              </li>
+              <li>
+                <span class="icon"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+                <div>
+                  <h3>Appointments</h3>
+                  <p><a href="tel:+918985586757">+91 89855 86757</a></p>
+                  <p>Monday – Saturday<br />10:00 AM – 6:00 PM<br />Sunday: Closed</p>
+
+                </div>
+              </li>
+            </ul>
+            <div class="hero-actions" style="margin-top: 26px;">
+              <a href="tel:+918985586757" class="btn btn-primary">Call the clinic</a>
+              <a href="https://wa.me/918985586757?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Eesha%20Health%20Care." class="btn btn-wa" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+          <div class="map reveal">
+            <iframe
+              title="Eesha Health Care on Google Maps"
+              data-src="https://www.google.com/maps?q=RR+Towers,+KGH+Down+Road,+Jagadamba+Junction,+Visakhapatnam+530002&output=embed"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>Eesha Health Care · Visakhapatnam</span>
+      <span><a href="tel:+918985586757">+91 89855 86757</a> · Monday to Saturday, 10 AM – 6 PM</span>
+    </div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a href="tel:+918985586757" class="btn btn-primary">Call</a>
+    <a href="https://wa.me/918985586757" class="btn btn-wa" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.getElementById("nav");
+    toggle.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    });
+    nav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-label", "Open menu");
+      });
+    });
+
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      }),
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+    const captions = [
+      "R.R. Towers",
+      "The clinic entrance",
+      "Entrance doors",
+      "Reception",
+      "Front office",
+      "Waiting lounge",
+      "Waiting corridor"
+    ];
+    const slides = document.querySelectorAll(".hero-photo .slide");
+    const dotsWrap = document.querySelector(".slide-dots");
+    const frame = document.querySelector(".frame");
+    const caption = document.getElementById("slide-caption");
+    let current = 0;
+    let timer;
+
+    const dots = Array.from(slides, (_, i) => {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.setAttribute("aria-label", captions[i]);
+      dot.addEventListener("click", () => { show(i); restart(); });
+      dotsWrap.appendChild(dot);
+      return dot;
+    });
+
+    function loadSlide(slide) {
+      if (slide && slide.dataset.src) {
+        slide.src = slide.dataset.src;
+        slide.removeAttribute("data-src");
+      }
+    }
+    function show(i) {
+      slides[current].classList.remove("active");
+      dots[current].classList.remove("active");
+      dots[current].removeAttribute("aria-current");
+      current = (i + slides.length) % slides.length;
+      loadSlide(slides[current]);
+      loadSlide(slides[(current + 1) % slides.length]);
+      slides[current].classList.add("active");
+      dots[current].classList.add("active");
+      dots[current].setAttribute("aria-current", "true");
+      caption.textContent = captions[current];
+    }
+
+    function restart() {
+      clearInterval(timer);
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reduce) timer = setInterval(() => show(current + 1), 4000);
+    }
+
+    dots[0].classList.add("active");
+    dots[0].setAttribute("aria-current", "true");
+    restart();
+    frame.addEventListener("mouseenter", () => clearInterval(timer));
+    frame.addEventListener("mouseleave", restart);
+    window.addEventListener("load", () => {
+      const rest = () => slides.forEach(loadSlide);
+      if ("requestIdleCallback" in window) requestIdleCallback(rest);
+      else setTimeout(rest, 1200);
+    });
+
+    const mapFrame = document.querySelector(".map iframe");
+    if (mapFrame) {
+      const mapObserver = new IntersectionObserver((entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          mapFrame.src = mapFrame.dataset.src;
+          mapObserver.disconnect();
+        }
+      }, { rootMargin: "250px" });
+      mapObserver.observe(mapFrame);
+    }
+    frame.addEventListener("focusin", () => clearInterval(timer));
+    frame.addEventListener("focusout", restart);
+  </script>
+</body>
+</html>
